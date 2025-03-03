@@ -12,7 +12,7 @@ resource_types:
 - name: concourse-ssh-resource
   type: docker-image
   source:
-    repository: edtan1/concourse-ssh-resource
+    repository: meezaan/concourse-ssh-resource
 ```
 
 ## Source configuration
