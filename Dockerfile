@@ -1,6 +1,6 @@
-FROM alpine:3.21
+FROM bookworm
 
-RUN apk --no-cache add openssh-client bash jq \
+RUN apt -y install jq \
     && mkdir -p /opt/resource
 
 COPY . /opt/resource
